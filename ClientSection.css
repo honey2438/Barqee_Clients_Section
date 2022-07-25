@@ -1,0 +1,28 @@
+.clients{
+    margin:40px 0px;
+}
+.inner-clients{
+    margin:90px 30px;
+}
+.images{
+    margin-left:40px;
+}
+.secondary{
+    font-size: 3rem;
+    text-align: center;
+}
+@media(max-width:1000px){
+    .images{
+        margin-left: 20px;
+    }
+    .secondary{
+        font-size: 1.5rem;
+    }
+    .inner-clients{
+        margin:35px 20px;
+    }
+    .images{
+        height: 100px;
+        width:100px;
+    }
+}
